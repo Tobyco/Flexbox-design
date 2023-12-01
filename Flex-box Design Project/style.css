@@ -1,0 +1,44 @@
+ body{
+    background-image: url(./pictures/chuttersnap-A1FqzZ2IoQQ-unsplash.jpg);
+ }
+
+.container{
+    border: 5px solid red;
+    width: 1300px;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-1{
+    height: 150px;
+    width: 200px;
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    /* flex: 1;
+    order:1 ; */
+}
+
+.child-2{
+    height: 150px;
+    width: 200px;
+    background-color: magenta;
+    font-size: 40px;
+    color: white;
+    /* flex: 2;
+    order: 2; */
+}
+
+.child-3{
+    height: 150px;
+    width: 200px;
+    background-color: green;
+    font-size: 40px;
+    color: white;
+    /* flex: 3;
+    order:3 ; */
+}
+
